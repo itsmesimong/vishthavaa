@@ -5,7 +5,7 @@ const SEO = ({pageTitle}) => (
   <>
     <Head>
       <title>
-        {pageTitle && `${pageTitle} - Sakthi Jewellery`}
+        {pageTitle && `${pageTitle} - Vishthavaa Jewellery`}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
       <meta name="description" content="Developed VMW" />
