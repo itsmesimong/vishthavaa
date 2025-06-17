@@ -28,8 +28,8 @@ const nextConfig = {
     'localhost',
     '127.0.0.1',
     '0.0.0.0',
-    'sakthidev-itsmesimongs-projects.vercel.app',
-    'sakthidev.vercel.app', // your LAN IP
+    'vishthavaa-itsmesimongs-projects.vercel.app',
+    'vishthavaa.vercel.app', // your LAN IP
   ],
 };
 
