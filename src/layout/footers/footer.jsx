@@ -23,7 +23,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                         <Image src={logo} alt="logo" />
                       </Link>
                     </div>
-                    <p className="tp-footer-desc">Sakhi Jewellery offers timeless elegance with handcrafted designs that blend tradition and modernity. Discover exquisite collections for every occasion.</p>
+                    <p className="tp-footer-desc">Vishthavaa Jewellery offers timeless elegance with handcrafted designs that blend tradition and modernity. Discover exquisite collections for every occasion.</p>
                     <div className="tp-footer-social">
                       {social_data.map(s => <a href={s.link} key={s.id} target="_blank">
                         <i className={s.icon}></i>
@@ -79,7 +79,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                           </span>
                         </div>
                         <div className="tp-footer-contact-content">
-                          <p><a href="mailto:sakthijewellery@support.com">sakthijewellery@support.com</a></p>
+                          <p><a href="mailto:support@vishthavaajewellery.com">support@vishthavaajewellery.com</a></p>
                         </div>
                       </div>
                       <div className="tp-footer-contact-item d-flex align-items-start">
