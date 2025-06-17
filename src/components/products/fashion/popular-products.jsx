@@ -129,7 +129,7 @@ const PopularProducts = () => {
                   <TextShapeLine />
                 </span>
                 <h3 className="tp-section-title-2">
-                  Popular on the Sakthi store.
+                  Popular on the Vishthavaa store.
                 </h3>
               </div>
             </div>
