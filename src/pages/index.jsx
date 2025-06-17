@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <Wrapper>
-      <SEO pageTitle='Sakthi Jewellery - Home' />
+      <SEO pageTitle='Vishthavaa Jewellery - Home' />
       <HeaderFour />
       <JewelryBanner />
       <FeatureAreaThree />
