@@ -29,6 +29,7 @@ const nextConfig = {
     '127.0.0.1',
     '0.0.0.0',
     'vishthavaa-itsmesimongs-projects.vercel.app',
+    'vishthavaa.com',
     'vishthavaa.vercel.app', // your LAN IP
   ],
 };
