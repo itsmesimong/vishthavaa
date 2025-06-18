@@ -4,28 +4,28 @@ export const productApi = apiSlice.injectEndpoints({
   overrideExisting: true,
   endpoints: (builder) => ({
     getAllProducts: builder.query({
-      query: () => `https://aihost.in/api/product/all`,
+      query: () => `https://api.vishthavaa.com/api/product/all`,
       providesTags:['Products']
     }),
     getProductType: builder.query({
-      query: ({ type, query }) => `https://aihost.in/api/product/${type}?${query}`,
+      query: ({ type, query }) => `https://api.vishthavaa.com/api/product/${type}?${query}`,
       providesTags:['ProductType']
     }),
     getOfferProducts: builder.query({
-      query: (type) => `https://aihost.in/api/product/offer?type=${type}`,
+      query: (type) => `https://api.vishthavaa.com/api/product/offer?type=${type}`,
       providesTags:['OfferProducts']
     }),
     getPopularProductByType: builder.query({
-      query: (type) => `https://aihost.in/api/product/popular/${type}`,
+      query: (type) => `https://api.vishthavaa.com/api/product/popular/${type}`,
       providesTags:['PopularProducts']
     }),
     getTopRatedProducts: builder.query({
-      query: () => `https://aihost.in/api/product/top-rated`,
+      query: () => `https://api.vishthavaa.com/api/product/top-rated`,
       providesTags:['TopRatedProducts']
     }),
     // get single product
     getProduct: builder.query({
-      query: (id) => `https://aihost.in/api/product/single-product/${id}`,
+      query: (id) => `https://api.vishthavaa.com/api/product/single-product/${id}`,
       providesTags: (result, error, arg) => [{ type: "Product", id: arg }],
       invalidatesTags: (result, error, arg) => [
         { type: "RelatedProducts", id:arg },
@@ -33,7 +33,7 @@ export const productApi = apiSlice.injectEndpoints({
     }),
     // get related products
     getRelatedProducts: builder.query({
-      query: (id) => `https://aihost.in/api/product/related-product/${id}`,
+      query: (id) => `https://api.vishthavaa.com/api/product/related-product/${id}`,
       providesTags: (result, error, arg) => [
         { type: "RelatedProducts", id: arg },
       ],
