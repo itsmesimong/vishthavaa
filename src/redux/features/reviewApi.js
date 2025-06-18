@@ -5,7 +5,7 @@ export const reviewApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     addReview: builder.mutation({
       query: (data) => ({
-        url: "https://aihost.in/api/review/add",
+        url: "https://api.vishthavaa.com/api/review/add",
         method: "POST",
         body: data,
       }),
