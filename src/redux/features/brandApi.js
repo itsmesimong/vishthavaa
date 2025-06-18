@@ -4,7 +4,7 @@ export const brandApi = apiSlice.injectEndpoints({
   overrideExisting:true,
   endpoints: (builder) => ({
     getActiveBrands: builder.query({
-      query: () => `https://aihost.in/api/brand/active`
+      query: () => `https://api.vishthavaa.com/api/brand/active`
     }),
   }),
 });
